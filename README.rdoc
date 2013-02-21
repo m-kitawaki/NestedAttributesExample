@@ -1,0 +1,4 @@
+== Nested Attributes Example (has_many)
+
+Parent model has children
+

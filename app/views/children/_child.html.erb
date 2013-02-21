@@ -1,0 +1,6 @@
+<%= parent_form.fields_for :children, child do |c| %>
+  <div class="field">
+    Child_<%= c.label :name %><br />
+    <%= c.text_field :name %>
+  </div>
+<% end %>
